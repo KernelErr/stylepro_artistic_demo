@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>StyleProNet Demo</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" type="text/css" href="../lib/SpinKit/spinkit.css">
+</head>
+
+<body>
+
+  <div class="mainbox">
+    <div id="content_box" class="content_box">
+      <h4>Origin</h4>
+      <img src="" id="content_image">
+    </div>
+    <div id="style_box" class="style_box">
+      <h4>Style</h4>
+      <img src="" id="style_image">
+    </div>
+    <div id="generated_box" class="generated_box">
+      <h4>Result</h4>
+      <img src="" id="generated_image">
+    </div>
+  </div>
+  
+  <div class="loading" id="loading">
+    <div class="sk-bounce">
+      <div class="sk-bounce-dot"></div>
+      <div class="sk-bounce-dot"></div>
+    </div>
+  </div>
+  
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
